@@ -51,10 +51,10 @@ const UserLayout: React.FC<UserLayoutProps> = props => {
             <div className={styles.header}>
               <Link to="/">
                 <img alt="logo" className={styles.logo} src={logo} />
-                <span className={styles.title}>JetLinks </span>
+                <span className={styles.title}>LAP </span>
               </Link>
             </div>
-            <div className={styles.desc}>捷联物联网平台</div>
+            <div className={styles.desc}>LAP物联网平台</div>
           </div>
           {children}
         </div>

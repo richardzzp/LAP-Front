@@ -57,7 +57,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'JetLinks',
+  title: 'LAP',
   pwa: false,
   iconfontUrl: '',
 } as DefaultSettings;

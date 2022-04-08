@@ -207,7 +207,6 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: IVi
         }
         setDeviceCountSpinning(false);
       });
-
   };
 
   useEffect(() => {

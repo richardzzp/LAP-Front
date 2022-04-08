@@ -38,6 +38,14 @@ export const routes = [
             component: './analysis',
           },
           {
+            name: '未来预测',
+            path: '/predict',
+            icon: 'dashboard',
+            tenant: ['admin', 'member'],
+            iconfont: 'icon-tongjifenxi',
+            component: './predict',
+          },
+          {
             path: 'system',
             name: '系统设置',
             iconfont: 'icon-shezhi',

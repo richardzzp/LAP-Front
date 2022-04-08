@@ -13,9 +13,3 @@ export async function getMulti(data: any) {
     data,
   });
 }
-export async function getPredict() {
-  ///jetlinks/permission/_query/for-grant
-  return request(`/jetlinks/device-instance/predict`, {
-    method: 'GET',
-  });
-}
